@@ -5,9 +5,9 @@ import com.google.gson.annotations.SerializedName
 
 data class CryptoItem(
     @SerializedName("id")
-    val id: String?,
+    val id: String,
     @SerializedName("logo_url")
-    val logoUrl: String?,
+    val logoUrl: String,
     @SerializedName("name")
-    val name: String?
+    val name: String
 )
